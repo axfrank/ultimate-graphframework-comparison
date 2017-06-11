@@ -1,18 +1,26 @@
 {
-  "title": "Ultimate-Comparison",
-  "subtitle": "Ultimate comparison framework",
+  "title": "GraphLib-Comparison",
+  "subtitle": "GraphLib-Comparison",
   "selecttitle": "Criteria",
-  "tabletitle": "Comparison of DOM manipulation libraries",
+  "tabletitle": "Comparison of different Graphic Libraries for Javascript",
   "details": {
-    "header-label": "Performance",
+    "header-label": "Comparison",
     "body-main-title": "Description",
     "body": "Description",
     "body-attachment-tags": [
-      "Performance",
-      "License",
-      "Showcase 2.0",
-      "Uncolored"
+      "Drag & Drop",
+      "Straight Line",
+      "Label On Line",
+      "Arrow Heads",
+      "Angular2 support",
+      "Scaling",
+      "Rendering Method",
+      "Different Edge Types",
+      "Explicit Data Model",
+      "Docking Points",
+      "Connection Types",
+      "Performance"
     ]
   },
-  "repository": "https://github.com/ultimate-comparisons/ultimate-comparison-BASE.git"
+  "repository": "https://github.com/axfrank/GraphLibComp"
 }

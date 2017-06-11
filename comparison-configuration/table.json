@@ -1,142 +1,263 @@
 [
-  {
-    "name": "Name",
-    "tag": "tag",
-    "urlTag": "url",
-    "style": "width: 5%",
-    "display": true,
-    "type": {
-      "tag": "url"
+    {
+        "name": "Name",
+        "tag": "tag",
+        "urlTag": "url",
+        "style": "width: 5%",
+        "display": true,
+        "type": {
+            "tag": "url"
+        },
+        "valign": "top"
     },
-    "valign": "top"
-  },
-  {
-    "name": "",
-    "tag": "Rating",
-    "display": true,
-    "type": {
-      "tag": "rating"
-    }
-  },
-  {
-    "name": "Short Description",
-    "tag": "descr",
-    "style": "width: 25%",
-    "display": true,
-    "type": {
-      "tag": "text"
-    }
-  },
-  {
-    "name": "Performance",
-    "tag": "Performance",
-    "style": "width: 5%",
-    "display": true,
-    "type": {
-      "tag": "label",
-      "values": [
-        {
-          "name": "slow",
-          "description": "Overall performance above 200ms.",
-          "class": "label-danger"
-        },
-        {
-          "name": "fast",
-          "description": "Overall performance below 200ms.",
-          "class": "label-success"
+    {
+        "name": "Drag & Drop",
+        "tag": "Drag & Drop",
+        "display": true,
+        "type": {
+            "tag": "label",
+            "values": [
+                {
+                    "name": "Yes",
+                    "description": "Supports Drag & Drop by default",
+                    "class": "label-success"
+                },
+                {
+                    "name": "Manually",
+                    "description": "Drag & Drop must be implemented by the user",
+                    "class": "label-danger"
+                }
+            ]
         }
-      ]
-    }
-  },
-  {
-    "name": "License",
-    "tag": "License",
-    "display": false,
-    "type": {
-      "tag": "label",
-      "class": "label label-info",
-      "values": [
-        {
-          "name": "MIT",
-          "description": "<http://choosealicense.com/licenses/mit/>"
-        },
-        {
-          "name": "Apache 2.0",
-          "description": "http://choosealicense.com/licenses/apache-2.0/"
-        },
-        {
-          "name": "MPL 2.0",
-          "description": "http://choosealicense.com/licenses/mpl-2.0/"
+    },
+    {
+        "name": "Angular2 Support",
+        "tag": "Angular2 Support",
+        "display": true,
+        "type": {
+            "tag": "label",
+            "values": [
+                {
+                    "name": "Yes",
+                    "description": "There is native Angular2 support",
+                    "class": "label-success"
+                },
+                {
+                    "name": "No",
+                    "description": "There is no native Angular2 support. You either has to search for a d.ts file or write it yourself",
+                    "class": "label-danger"
+                }
+            ]
         }
-      ]
-    }
-  },
-  {
-    "name": "Showcase",
-    "tag": "Showcase 2.0",
-    "style": "width: 5%",
-    "display": true,
-    "type": {
-      "tag": "label",
-      "values": [
-        {
-          "name": "red 1",
-          "description": "Show case for red label 1",
-          "class": "label-danger"
-        },
-        {
-          "name": "red 2",
-          "description": "Show case for red label 2",
-          "class": "label-danger"
-        },
-        {
-          "name": "green",
-          "description": "Show case for green label",
-          "class": "label-success"
-        },
-        {
-          "name": "yellow",
-          "description": "Show case for yellow label",
-          "class": "label-warning"
-        },
-        {
-          "name": "dark blue",
-          "description": "Show case for dark blue label",
-          "class": "label-primary"
-        },
-        {
-          "name": "grey",
-          "description": "Show case for grey label",
-          "class": "label-default"
-        },
-        {
-          "name": "light blue",
-          "description": "",
-          "class": "label-info"
+    },
+    {
+        "name": "Straight Line",
+        "tag": "Straight Line",
+        "display": true,
+        "type": {
+            "tag": "label",
+            "values": [
+                {
+                    "name": "Yes",
+                    "description": "Supports straight lines out of the box",
+                    "class": "label-success"
+                },
+                {
+                    "name": "Manually",
+                    "description": "While it is possible to draw straight lines, it has to be done manually/programmatically",
+                    "class": "label-danger"
+                }
+            ]
         }
-      ]
-    }
-  },
-  {
-    "name": "Uncolored",
-    "tag": "Uncolored",
-    "display": true,
-    "type": {
-      "tag": "label",
-      "values": [
-        {
-          "name": "color 1",
-          "description": "Color 1"
-        },
-        {
-          "name": "color 2",
-          "description": "Color 2"
-        },
-        {
-          "name": "color 3",
-          "description": "Color 3"
+    },
+    {
+        "name": "Label On Line",
+        "tag": "Label On Line",
+        "display": true,
+        "type": {
+            "tag": "label",
+            "values": [
+                {
+                    "name": "Yes",
+                    "description": "Supports labels on lines out of the box",
+                    "class": "label-success"
+                },
+                {
+                    "name": "Manually",
+                    "description": "While it is possible to add label on lines, it has to be done manually/programmatically",
+                    "class": "label-danger"
+                }
+            ]
         }
-      ]
+    },
+    {
+        "name": "Arrow Heads",
+        "tag": "Arrow Heads",
+        "display": true,
+        "type": {
+            "tag": "label",
+            "values": [
+                {
+                    "name": "Yes",
+                    "description": "Supports arrow heads out of the box",
+                    "class": "label-success"
+                },
+                {
+                    "name": "Manually",
+                    "description": "While it is possible to draw arrow heads, it has to be done manually/programmatically",
+                    "class": "label-danger"
+                }
+            ]
+        }
+    },
+    {
+        "name": "Scaling",
+        "tag": "Scaling",
+        "display": true,
+        "type": {
+            "tag": "label",
+            "values": [
+                {
+                    "name": "Yes",
+                    "description": "Supports Scaling out of the box",
+                    "class": "label-success"
+                },
+                {
+                    "name": "Manually",
+                    "description": "There is no scaling support, it has to be done manually/programmatically",
+                    "class": "label-danger"
+                }
+            ]
+        }
+    },
+    {
+        "name": "Rendering Method",
+        "tag": "Rendering Method",
+        "display": true,
+        "type": {
+            "tag": "label",
+            "values": [
+                {
+                    "name": "SVG",
+                    "description": "Uses SVG as Rendering Method",
+                    "class": "label-primary"
+                },
+                {
+                    "name": "Canvas",
+                    "description": "Uses Canvas as Rendering Method",
+                    "class": "label-primary"
+                },
+                {
+                    "name": "HTML",
+                    "description": "Uses HTML as Rendering Method",
+                    "class": "label-primary"
+                }
+            ]
+        }
+    },
+    {
+        "name": "Different Edge Types",
+        "tag": "Different Edge Types",
+        "display": true,
+        "type": {
+            "tag": "label",
+            "values": [
+                {
+                    "name": "Yes",
+                    "description": "Supports different edge types",
+                    "class": "label-success"
+                },
+                {
+                    "name": "No",
+                    "description": "No support of different edge types",
+                    "class": "label-danger"
+                }
+            ]
+        }
+    },
+    {
+        "name": "Explicit Data Model",
+        "tag": "Explicit Data Model",
+        "display": true,
+        "type": {
+            "tag": "label",
+            "values": [
+                {
+                    "name": "Yes",
+                    "description": "Supports Explicit Data Model",
+                    "class": "label-success"
+                },
+                {
+                    "name": "No",
+                    "description": "No support for explicit Data Model",
+                    "class": "label-danger"
+                },
+                {
+                    "name": "Partially",
+                    "description": "Partial support for an explicit Data Model (e.g. part of a commerical license)",
+                    "class": "label-warning"
+                }
+            ]
+        }
+    },
+    {
+        "name": "Docking Points",
+        "tag": "Docking Points",
+        "display": true,
+        "type": {
+            "tag": "label",
+            "values": [
+                {
+                    "name": "Yes",
+                    "description": "Supports Docking Points",
+                    "class": "label-success"
+                },
+                {
+                    "name": "No",
+                    "description": "No support for Docking Points",
+                    "class": "label-danger"
+                }
+            ]
+        }
+    },
+    {
+        "name": "Connection Types",
+        "tag": "Connection Types",
+        "display": true,
+        "type": {
+            "tag": "label",
+            "values": [
+                {
+                    "name": "Orthogonal",
+                    "description": "Support for Orthogonal Connection Type",
+                    "class": "label-primary"
+                },
+                {
+                    "name": "Other",
+                    "description": "Supports Different Connection Type (e.g. free form)",
+                    "class": "label-primary"
+                }
+            ]
+        }
+    },
+    {
+        "name": "Performance",
+        "tag": "Performance",
+        "display": true,
+        "type": {
+            "tag": "label",
+            "values": [
+                {
+                    "name": "Fast",
+                    "description": "Framework is fast when drawing 50 x 50 fully interconnected graph",
+                    "class": "label-success"
+                },
+                {
+                    "name": "Slow",
+                    "description": "Framework is slow when drawing 50 x 50 fully interconnected graph",
+                    "class": "label-danger"
+                }
+            ]
+        }
     }
-  }
 ]

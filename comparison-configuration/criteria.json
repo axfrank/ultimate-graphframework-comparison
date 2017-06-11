@@ -1,84 +1,213 @@
 [
   {
-    "name": "Performance",
-    "tag": "Performance",
-    "description": "Performace of entry.",
-    "placeholder": "Select performace rating ...",
+    "name": "Drag & Drop",
+    "tag": "Drag & Drop",
+    "description": "Determines if the Framework enables Drag and Drop of elements by default",
+    "placeholder": "Select Drag & Drop",
     "and_search": true,
     "values": [
       {
-        "name": "slow",
-        "description": "I am slow!"
+        "name": "Yes",
+        "description": "Supports Drag & Drop by default"
       },
       {
-        "name": "fast",
-        "description": "I am fast!"
+        "name": "No",
+        "description": "Drag & Drop must be implemented by the user"
       }
     ]
   },
   {
-    "name": "Licenses",
-    "tag": "License",
-    "description": "Popular licenses for DOM manipulation libraries.",
-    "placeholder": "Select license ...",
-    "and_search": false,
+    "name": "Straight Line",
+    "tag": "Straight Line",
+    "description": "Determines if the Framework is able to draw a straight line",
+    "placeholder": "Select Straight Line",
+    "and_search": true,
     "values": [
       {
-        "name": "MIT"
+        "name": "Yes",
+        "description": "Supports straight lines out of the box"
       },
       {
-        "name": "Apache 2.0"
-      },
-      {
-        "name": "MPL 2.0"
+        "name": "Manually",
+        "description": "While it is possible to draw straight lines, it has to be done manually/programmatically"
       }
     ]
   },
   {
-    "name": "Showcase",
-    "tag": "Showcase 2.0",
-    "description": "Popular showcases.",
-    "placeholder": "Select showcase ...",
-    "and_search": false,
+    "name": "Label On Line",
+    "tag": "Label On Line",
+    "description": "Determines if the Framework enables labels on lines by default",
+    "placeholder": "Select Label On Line",
+    "and_search": true,
     "values": [
       {
-        "name": "red 1"
+        "name": "Yes",
+        "description": "Supports labels on lines out of the box"
       },
       {
-        "name": "red 2"
-      },
-      {
-        "name": "green"
-      },
-      {
-        "name": "yellow"
-      },
-      {
-        "name": "dark blue"
-      },
-      {
-        "name": "grey"
-      },
-      {
-        "name": "light blue"
+        "name": "Manually",
+        "description": "While it is possible to add label on lines, it has to be done manually/programmatically"
       }
     ]
   },
   {
-    "name": "Uncolored",
-    "tag": "Uncolored",
-    "description": "Tags that were originally uncolored.",
-    "placeholder": "Select color ...",
-    "and_search": false,
+    "name": "Arrow Heads",
+    "tag": "Arrow Heads",
+    "description": "Determines if the Framework enables arrow heads by default",
+    "placeholder": "Select Arrow Heads",
+    "and_search": true,
     "values": [
       {
-        "name": "color 1"
+        "name": "Yes",
+        "description": "Supports arrow heads out of the box"
       },
       {
-        "name": "color 2"
+        "name": "Manually",
+        "description": "While it is possible to draw arrow heads, it has to be done manually/programmatically"
+      }
+    ]
+  },
+  {
+    "name": "Angular2 support",
+    "tag": "Angular2 support",
+    "description": "Shows if there is Angular2 support (d.ts file)",
+    "placeholder": "Select Angular2 Support",
+    "and_search": true,
+    "values": [
+      {
+        "name": "Yes",
+        "description": "There is native Angular2 support"
       },
       {
-        "name": "color 3"
+        "name": "No",
+        "description": "There is no native Angular2 support. You either has to search for a d.ts file or write it yourself"
+      }
+    ]
+  },
+  {
+    "name": "Scaling",
+    "tag": "Scaling",
+    "description": "Determines if the framework supports Scaling of elements by default",
+    "placeholder": "Select Scaling",
+    "and_search": true,
+    "values": [
+      {
+        "name": "Yes",
+        "description": "Supports Scaling out of the box"
+      },
+      {
+        "name": "Manually",
+        "description": "There is no scaling support, it has to be done manually/programmatically"
+      }
+    ]
+  },
+  {
+    "name": "Rendering Method",
+    "tag": "Rendering Method",
+    "description": "The Rendering Method of the Framework",
+    "placeholder": "Select Rendering Method",
+    "and_search": true,
+    "values": [
+      {
+        "name": "SVG",
+        "description": "Uses SVG as Rendering Method"
+      },
+      {
+        "name": "Canvas",
+        "description": "Uses Canvas as Rendering Method"
+      },
+      {
+        "name": "HTML",
+        "description": "Manipulates the DOM as a Rendering Method"
+      }
+    ]
+  },
+  {
+    "name": "Different Edge Types",
+    "tag": "Different Edge Types",
+    "description": "Different Edge Types",
+    "placeholder": "Select Edge Types",
+    "and_search": true,
+    "values": [
+      {
+        "name": "Yes",
+        "description": "Supports different edge types"
+      },
+      {
+        "name": "No",
+        "description": "No support of different edge types"
+      }
+    ]
+  },
+  {
+    "name": "Explicit Data Model",
+    "tag": "Explicit Data Model",
+    "description": "Framework has an explicit data model to create graphs",
+    "placeholder": "Select Data Model",
+    "and_search": true,
+    "values": [
+      {
+        "name": "Yes",
+        "description": "Supports Explicit Data Model"
+      },
+      {
+        "name": "No",
+        "description": "No support for explicit Data Model"
+      },
+      {
+        "name": "Partially",
+        "description": "Partial support for an explicit Data Model (e.g. part of a commerical license)"
+      }
+    ]
+  },
+  {
+    "name": "Docking Points",
+    "tag": "Docking Points",
+    "description": "Framework supports Docking Points for Elements out of the box",
+    "placeholder": "Select Docking Points",
+    "and_search": true,
+    "values": [
+      {
+        "name": "Yes",
+        "description": "Supports Docking Points"
+      },
+      {
+        "name": "No",
+        "description": "No support for Docking Points"
+      }
+    ]
+  },
+  {
+    "name": "Connection Types",
+    "tag": "Connection Types",
+    "description": "Framework supports different type of connection types",
+    "placeholder": "Select Connection Types",
+    "and_search": true,
+    "values": [
+      {
+        "name": "Orthogonal",
+        "description": "Support for Orthogonal Connection Type"
+      },
+      {
+        "name": "Other",
+        "description": "Supports Different Connection Type (e.g. free form)"
+      }
+    ]
+  },
+  {
+    "name": "Performance",
+    "tag": "Performance",
+    "description": "Performance of the Framework",
+    "placeholder": "Select Perfomance",
+    "and_search": true,
+    "values": [
+      {
+        "name": "Fast",
+        "description": "Framework is fast when drawing 50 x 50 fully interconnected graph"
+      },
+      {
+        "name": "Slow",
+        "description": "Framework is slow when drawing 50 x 50 fully interconnected graph"
       }
     ]
   }
