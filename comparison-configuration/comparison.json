@@ -1,0 +1,23 @@
+{
+  "title": "GraphLib-Comparison",
+  "subtitle": "GraphLib-Comparison",
+  "selecttitle": "Criteria",
+  "tabletitle": "Comparison of different Graphic Libraries for Javascript",
+  "details": {
+    "body-attachment-tags": [
+      "Drag & Drop",
+      "Straight Line",
+      "Label On Line",
+      "Arrow Heads",
+      "Angular2 Support",
+      "Scaling",
+      "Rendering Method",
+      "Different Edge Types",
+      "Explicit Data Model",
+      "Docking Points",
+      "Connection Types",
+      "Performance"
+    ]
+  },
+  "repository": "https://github.com/ultimate-comparisons/ultimate-graphframework-comparison"
+}
