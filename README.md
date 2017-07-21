@@ -78,8 +78,8 @@ The code below shows a sample element.
     ## Performance
     - Fast
     - Slow
-
-    ## License
+    
+## License
 
     The code is licensed under [MIT], the content (located at `comparison-elements`) under [CC0-1.0].
 
