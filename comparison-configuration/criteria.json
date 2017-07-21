@@ -11,8 +11,8 @@
         "description": "Supports Drag & Drop by default"
       },
       {
-        "name": "No",
-        "description": "Drag & Drop must be implemented by the user"
+        "name": "Manually",
+        "description": "While it is possible to add label on lines, it has to be done manually/programmatically"
       }
     ]
   },

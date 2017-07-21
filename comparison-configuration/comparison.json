@@ -4,15 +4,12 @@
   "selecttitle": "Criteria",
   "tabletitle": "Comparison of different Graphic Libraries for Javascript",
   "details": {
-    "header-label": "Comparison",
-    "body-main-title": "Description",
-    "body": "Description",
     "body-attachment-tags": [
       "Drag & Drop",
       "Straight Line",
       "Label On Line",
       "Arrow Heads",
-      "Angular2 support",
+      "Angular2 Support",
       "Scaling",
       "Rendering Method",
       "Different Edge Types",
@@ -22,5 +19,5 @@
       "Performance"
     ]
   },
-  "repository": "https://github.com/axfrank/GraphLibComp"
+  "repository": "https://github.com/ultimate-comparisons/ultimate-graphframework-comparison"
 }

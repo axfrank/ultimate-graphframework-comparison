@@ -1,34 +1,51 @@
 # Template - http://www.example.com
-Default short description (with bibkey: [@esper-reference])
+
+## Drag & Drop
+- Yes
+- Manually
+
+## Angular2 Support
+- Yes
+- No
+
+## Straight Line
+- Yes
+- Manually
+
+## Label On Line
+- Yes
+- Manually
+
+## Arrow Heads
+- Yes
+- Manually
+
+## Scaling
+- Yes
+- Manually
+
+## Rendering Method
+- SVG
+- Canvas
+- HTML
+
+## Different Edge Types
+- Yes
+- No
+
+## Explicit Data Model
+- Yes
+- No
+- Partially
+
+## Docking Points
+- Yes
+- No
+
+## Connection Types
+- Orthogonal
+- Other
 
 ## Performance
-- slow
-- fast
-
-## License
-- MIT
-- Apache 2.0
-- MPL 2.0
-
-## Showcase 2.0
-- red 1
-- red 2
-- green
-    - [@eckertThesisCEP]
-- yellow
-    - yellow property
-- dark blue
-    - [@eckertThesisCEP]
-    - more properties
-- grey
-- light blue
-
-## Description
-Default long description in __markdown__.
-- Bibkey example [@Adi:2004:ASM:988145.988150]
-- [Link example](http://example.com).
-
-## Rating
-- [5] Template is perfect
-- [1] I don't understand nothing
-- [3] It works
+- Fast
+- Slow
