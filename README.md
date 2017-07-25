@@ -7,16 +7,13 @@ This is an ultimate comparison of different Javascript Graphic Frameworks. This 
 If you found an error in the comparison, please open a ticket in the github repository of this project.
 
 ## Run it
-1. Install [node.js](https://nodejs.org/en/) 
-  - Windows: `choco install nodejs` via [chocolatey](https://chocolatey.org/)
-2. Install [Java JDK8](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
-  - Windows: `choco install jdk8`
-3. Install [pandoc](http://pandoc.org/installing.html) (Version 1.17.2)
-   - Linux:
-     1. `wget https://github.com/jgm/pandoc/releases/download/1.17.2/pandoc-1.17.2-1-amd64.deb`
-     2. `sudo dpkg -i pandoc-1.17.2-1-amd64.deb`
-   - Windows: `choco install pandoc`
-4. Install [pandoc-citeproc](https://hackage.haskell.org/package/pandoc-citeproc)
+1. Install [node.js](https://nodejs.org/en/)
+2. Intall [Java JDK8](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
+3. Install [pandoc](http://pandoc.org/installing.html) (Version 1.17.2) [pandoc-citeproc](https://hackage.haskell.org/package/pandoc-citeproc)
+        
+        wget https://github.com/jgm/pandoc/releases/download/1.17.2/pandoc-1.17.2-1-amd64.deb
+        sudo dpkg -i pandoc-1.17.2-1-amd64.deb
+        
 4. Update npm (sudo): `npm install -g npm`
 5. Test dependencies:
 
