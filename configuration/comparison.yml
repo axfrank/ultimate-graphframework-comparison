@@ -1,0 +1,196 @@
+title: Ultimate-Comparison
+subtitle: GraphLib-Comparison
+selectTitle: Criteria
+tableTitle: Comparison of different Graphic Libraries for Javascript
+repository: 'https://github.com/ultimate-comparisons/ultimate-graphframework-comparison.git'
+details:
+  header:
+    nameRef: id
+    urlRef: inline
+citation:
+  csl: acm-siggraph.csl
+  bib: literature.bib
+criteria:
+  - id:
+      name: Name
+      search: false
+      table: true
+      detail: false
+  - description:
+      table: false
+      search: false
+      detail: false
+      type: markdown
+  - Drag & Drop:
+      table: true
+      search: true
+      description: Determines if the Framework enables Drag and Drop of elements by default
+      placeholder: Select Drag & Drop
+      andSearch: true
+      type: label
+      values:
+        Yes:
+          description: Supports Drag & Drop by default
+          class: label-success
+        Manually:
+          description: Drag & Drop must be implemented by the user
+          class: label-danger
+  - Angular2 Support:
+      table: true
+      search: true
+      description: Shows if there is Angular2 support (d.ts file)
+      placeholder: Select Angular2 Support
+      andSearch: true
+      type: label
+      values:
+        Yes:
+          description: There is native Angular2 support
+          class: label-success
+        No:
+          description: There is no native Angular2 support. You either has to search for a d.ts file or write it yourself
+          class: label-danger
+  - Straight Line:
+      table: true
+      search: true
+      description: Determines if the Framework is able to draw a straight line
+      placeholder: Select Straight Line
+      andSearch: true
+      type: label
+      values:
+        Yes:
+          description: Supports straight lines out of the box
+          class: label-success
+        Manually:
+          description: While it is possible to draw straight lines, it has to be done manually/programmatically
+          class: label-danger
+  - Label On Line:
+      table: true
+      search: true
+      description: Determines if the Framework enables labels on lines by default
+      placeholder: Select Label On Line
+      andSearch: true
+      type: label
+      values:
+        Yes:
+          description: Supports labels on lines out of the box
+          class: label-success
+        Manually:
+          description: While it is possible to add label on lines, it has to be done manually/programmatically
+          class: label-danger
+  - Arrow Heads:
+      table: true
+      search: true
+      description: Determines if the Framework enables arrow heads by default
+      placeholder: Select Arrow Heads
+      andSearch: true
+      type: label
+      values:
+        Yes:
+          description: Supports arrow heads out of the box
+          class: label-success
+        Manually:
+          description: While it is possible to draw arrow heads, it has to be done manually/programmatically
+          class: label-danger
+  - Scaling:
+      table: true
+      search: true
+      description: Determines if the framework supports scaling of elements by default
+      placeholder: Select Scaling
+      andSearch: true
+      type: label
+      values:
+        Yes:
+          description: Supports Scaling out of the box
+          class: label-success
+        Manually:
+          description: There is no scaling support, it has to be done manually/programmatically
+          class: label-danger
+  - Rendering Method:
+      table: true
+      search: true
+      description: The Rendering Method of the Framework
+      placeholder: Select Rendering Method
+      andSearch: true
+      type: label
+      values:
+        SVG:
+          description: Uses SVG as Rendering Method
+          class: label-primary
+        Canvas:
+          description: Uses Canvas as Rendering Method
+          class: label-primary
+        HTML:
+          description: Uses HTML as Rendering Method
+          class: label-primary
+  - Different Edge Types:
+      table: true
+      search: true
+      description: Different Edge Types
+      placeholder: Select Edge Types
+      andSearch: true
+      type: label
+      values:
+        Yes:
+          description: Supports different edge types
+          class: label-success
+        No:
+          description: No support of different edge types
+          class: label-danger
+  - Explicit Data Model:
+      table: true
+      search: true
+      description: Framework has an explicit data model to create graphs
+      placeholder: Select Data Model
+      andSearch: true
+      type: label
+      values:
+        Yes:
+          description: Supports Explicit Data Model
+          class: label-success
+        No:
+          description: No support for explicit Data Model
+          class: label-danger
+        Partially:
+          description: Partial support for an explicit Data Model (e.g. part of a commerical license)
+          class: label-warning
+  - Docking Points:
+      table: true
+      search: true
+      description: Framework supports Docking Points for Elements out of the box
+      placeholder: Select Docking Points
+      andSearch: true
+      type: label
+      values:
+        Yes:
+          description: Supports Docking Points
+          class: label-success
+        No:
+          description: No support for Docking Points
+          class: label-danger
+  - Connection Types:
+      table: true
+      search: true
+      description: Framework supports different type of connection types
+      placeholder: Select Connection Types
+      andSearch: true
+      type: label
+      values:
+        Orthogonal:
+          description: Support for Orthogonal Connection Type
+          class: label-primary
+        Other:
+          description: Supports Different Connection Type (e.g. free form)
+          class: label-primary
+  - Performance:
+      table: true
+      search: true
+      description: Performance of the Framework
+      placeholder: Select Performance
+      andSearch: true
+      values:
+        Fast:
+          description: Framework is fast when drawing 50 x 50 fully interconnected graph
+          class: label-success
+        Slow:
+          description: Framework is slow when drawing 50 x 50 fully interconnected graph
+          class: label-danger

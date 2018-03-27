@@ -6,23 +6,19 @@ This is an ultimate comparison of different Javascript Graphic Frameworks. This 
 
 If you found an error in the comparison, please open a ticket in the github repository of this project.
 
-## Run it
-1. Install [node.js](https://nodejs.org/en/)
-2. Intall [Java JDK8](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
-3. Install [pandoc](http://pandoc.org/installing.html) (Version 1.17.2) [pandoc-citeproc](https://hackage.haskell.org/package/pandoc-citeproc)
-        
-        wget https://github.com/jgm/pandoc/releases/download/1.17.2/pandoc-1.17.2-1-amd64.deb
-        sudo dpkg -i pandoc-1.17.2-1-amd64.deb
-        
-4. Update npm (sudo): `npm install -g npm`
-5. Test dependencies:
+## Start the comparison
 
-        java -version
-        npm -version
+1. Install dependencies `npm install`
+2. Start webserver `npm start`
+3. Alternatively start development mode `npm run dev`
 
-6. `npm install`
-7. `npm start` (starts the web page)
-8. [Setup automatic deployment of `www` directory using Travis CI](https://github.com/ultimate-comparisons/ultimate-comparison-BASE/wiki/Build-and-deploy-project-with-Travis-CI)
+## Deploy comparison with github and travis
+
+1. [Setup Git](https://help.github.com/articles/set-up-git/)
+2. [Setup Travis](https://docs.travis-ci.com/user/getting-started/)
+    - Changes to `.travis.yml` are not required
+3. [Create a personal access token](https://help.github.com/articles/creating-a-personal-access-token-for-the-command-line/)
+4. [Add the environment variable `GITHUB_TOKEN` to travis](https://docs.travis-ci.com/user/environment-variables#Defining-Variables-in-Repository-Settings)
 
 ## Ultimate-Graphframework-Comparison Element Specification
 The code below shows a sample element.
@@ -78,16 +74,10 @@ The code below shows a sample element.
     ## Performance
     - Fast
     - Slow
-    
+
 ## License
 
-    The code is licensed under [MIT], the content (located at `comparison-elements`) under [CC0-1.0].
-
-  [CC0-1.0]: https://creativecommons.org/publicdomain/zero/1.0/
-
-<hr />
-
-See [README-THING.template](https://github.com/ultimate-comparisons/ultimate-comparison-BASE/blob/master/README-THING.template.md) for a README skeletton for your ultimate-THING-comparison.
+The code is licensed under [MIT], the content (located at `data`) under [CC-BY-SA-4.0].
 
   [MIT]: https://opensource.org/licenses/MIT
   [CC-BY-SA-4.0]: http://creativecommons.org/licenses/by-sa/4.0/
